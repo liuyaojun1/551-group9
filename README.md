@@ -1,3 +1,13 @@
+## Milestone 1 Required Files (This part must be updated each milestone!!!)
+1. **Submission Instruction:** Since canvas-submission.md is no longer required, instead, we uploaded our dataset [here](Milestone%201/database.csv).
+2. **Proposal:** [proposal.md](Milestone%201/proposal.md)
+3. **Description of your app & sketch:** [README.md](README.md)
+4. **Team work contract and collaborative documentation**:
+   - [Team work contract](team-contract.md)
+   - [Code of Conduct](CODE_OF_CONDUCT.md)
+   - [Contribution guidelines](CONTRIBUTING.md)
+5. **Start developing your app:** [master-plotter.ipynb](Milestone%201/master-plotter.ipynb)
+
 ## App description
 
 This app explores the FAA Aircraft Wildlife Strikes dataset (1990–2015) to help users identify which bird species are associated with the most serious outcomes. Users start by choosing an outcome scope from four options: all impacts, impacts that caused aircraft damage, impacts that caused injury, or impacts that caused death. This makes it easy to compare “most frequent” species against species linked to more severe consequences. Users can then narrow the data using filters such as year range, species search, airport/state, and aircraft type.
