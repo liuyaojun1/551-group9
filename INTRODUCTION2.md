@@ -55,7 +55,9 @@ In future milestones, we plan to improve:
 
 ## Repository and App Links
 - **GitHub Repository:** [551-group9](https://github.com/liuyaojun1/551-group9)
-- **Deployed App:** *(Add your deployed app link here, if available)*
+- **Deployed App:** **
 
 ## Team Notes
 This Milestone 2 submission represents the prototype stage of the project. The goal is to demonstrate the core analytical workflow and major interactions, rather than a fully polished final product.
+<img width="1083" height="533" alt="image" src="https://github.com/user-attachments/assets/b613d45d-f8e2-4af2-9999-382d30ce0be9" />
+
