@@ -1,63 +1,55 @@
 # Milestone 2 Submission Introduction
 
 ## App Name
-**Missed Appointment Tracker**
+**Flight–Animal Impacts Explorer** (FAA Wildlife Strikes Dashboard)
 
 ## Overview
-The **Missed Appointment Tracker** is an interactive dashboard designed to help users explore patterns related to missed medical appointments (e.g., *missed* vs *present*). The app supports visual comparison of appointment status across multiple variables such as **date**, **age**, **gender**, and **physical disability**.
-
-This project aims to make it easier to identify trends and potential risk factors associated with missed appointments through an intuitive and interactive visualization interface.
+This project builds an interactive dashboard on the **FAA Aircraft Wildlife Strikes dataset (1990–2015)** to help users explore which bird species are associated with the **most frequent** and **most severe** outcomes of wildlife strikes. The app is designed to support fast exploratory analysis through coordinated views: users select an outcome scope, apply filters, and then investigate how risk varies over time, across geography, and across flight/impact conditions. :contentReference[oaicite:0]{index=0}
 
 ## Problem Statement
-Missed appointments can create operational inefficiencies in healthcare systems, increase wait times, and reduce access to care for other patients. However, the factors associated with missed appointments are often distributed across multiple demographic and scheduling variables, which can be difficult to interpret using raw tables alone.
-
-Our app addresses this challenge by providing a dashboard that:
-- compares the distribution of **Missed** vs **Present** appointments,
-- supports filtering and sorting of variables,
-- allows users to visually inspect patterns across different feature types.
+Wildlife strikes can lead to operational disruption and, in rare cases, serious consequences such as aircraft damage, injury, or death. However, identifying **which species** are most associated with severe outcomes—and under what conditions incidents concentrate—requires navigating multiple dimensions (time, location, aircraft type, flight phase, etc.). Raw tables make this difficult. Our dashboard addresses this by providing linked visual panels that support both **ranking** and **explanation**. :contentReference[oaicite:1]{index=1}
 
 ## Target Audience
-This dashboard is intended for:
-- **Healthcare administrators**
-- **Clinic operations staff**
-- **Analysts / researchers**
-- **Students learning exploratory data analysis and dashboard design**
-
-These users can use the app to quickly explore which variables may be associated with higher no-show rates.
+The app is intended for users who need to explore wildlife strike risk patterns, including:
+- aviation safety analysts and researchers
+- airport/airline operations stakeholders
+- students learning exploratory data analysis and interactive visualization
 
 ## Milestone 2 Scope (Prototype)
-In Milestone 2, we focus on building a **functional prototype** that demonstrates the core dashboard workflow and interaction design. The current version includes:
+Milestone 2 focuses on delivering a **functional prototype** that demonstrates the core workflow and interaction design:
+1. Choose an **outcome scope** (severity level)
+2. Apply filters (e.g., year range, species search, airport/state, aircraft type)
+3. Explore coordinated panels that update based on selections :contentReference[oaicite:2]{index=2}
 
-- A **sidebar control panel** for user interaction
-- A **variable filter** (e.g., variable type / variable selection)
-- A **date filter** (calendar/date range selection)
-- **Sorting options** (e.g., by variable name or probability/show-related metric)
-- A **main visualization area** displaying distributions of different variables
-- Consistent color encoding and a **legend** for appointment status:
-  - **Red** = Missed
-  - **Blue** = Present
-- Basic **tooltips** for interactive exploration
+## Core User Workflow and Coordinated Panels
+The interface is organized into **four coordinated panels**: :contentReference[oaicite:3]{index=3}
 
-## Key Features Implemented in Milestone 2
-- Interactive filtering controls
-- Multiple chart panels for variable distributions
-- Comparison of appointment status categories
-- Dashboard layout with sidebar + main panel structure
-- Initial visual design aligned with the project sketch/wireframe
+- **Panel A — Species Ranking**
+  - Ranks species for the selected outcome scope and filters
+  - Uses a bar chart and a small sortable table for exact counts/values
+  - Selecting a species drives updates in Panels B–D
+
+- **Panel B — Time Trend**
+  - Shows a year-by-year trend for the selected species
+  - Helps determine whether the selected outcome is increasing or decreasing over 1990–2015
+
+- **Panel C — Geographic Summary**
+  - Summarizes where incidents occur geographically (e.g., state-level map or equivalent summary)
+
+- **Panel D — Deeper Breakdown (“Group by”)**
+  - Provides a deeper breakdown controlled by a “group by” selector with three options:
+    - time of day
+    - impact location on the aircraft
+    - flight phase
+  - Displays a comparison plot (e.g., grouped/stacked bars or heatmap) to show where risk concentrates
 
 ## What Is Planned for Future Milestones
-In future milestones, we plan to improve:
-- usability and layout polish,
-- responsiveness and performance,
-- richer interactivity (e.g., brushing/linking if applicable),
-- user feedback integration,
-- documentation and final deployment presentation.
+Future milestones will focus on usability polish, richer interactions, performance improvements, and incorporating user feedback, while completing deployment and final documentation.
 
-## Repository and App Links
-- **GitHub Repository:** [551-group9](https://github.com/liuyaojun1/551-group9)
-- **Deployed App:** **
+## Links
+- **GitHub Repository:** https://github.com/liuyaojun1/Flight-Animal-Impacts :contentReference[oaicite:4]{index=4}
+- **Deployed App:** *(add deployment link here if available)*
 
 ## Team Notes
-This Milestone 2 submission represents the prototype stage of the project. The goal is to demonstrate the core analytical workflow and major interactions, rather than a fully polished final product.
-<img width="1083" height="533" alt="image" src="https://github.com/user-attachments/assets/b613d45d-f8e2-4af2-9999-382d30ce0be9" />
+This Milestone 2 submission emphasizes a working prototype that demonstrates the end-to-end exploratory workflow and the linked multi-panel design, aligned with the initial app concept and sketch.
 
