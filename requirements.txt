@@ -1,0 +1,7 @@
+altair==6.0.0
+dash==2.18.2
+dash_bootstrap_components==1.5.0
+dash_core_components==2.0.0
+dash_html_components==2.0.0
+pandas==3.0.1
+vega_datasets==0.9.0
