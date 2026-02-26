@@ -23,7 +23,7 @@ drop_cols = ["Engine1 Position", "Engine2 Position", "Engine3 Position", "Engine
              "Engine Make", "Engine Model", "Engine Type", "Aircraft Make", "Aircraft Model",
              "Aircraft Mass", "Warning Issued", "Airport", "Distance", "Species ID", 
              "Record ID", "Operator ID"]
-impacts = impacts.drop(columns=[c for c in drop_cols if c in impacts.columns], axis=1)
+impacts = impacts.drop(columns=[c for c in drop_cols if c in impacts.columns])
 
 typeMap = {"A": "Airplane", "B": "Helicopter", "J": "Other"}
 if "Aircraft Type" in impacts.columns:
