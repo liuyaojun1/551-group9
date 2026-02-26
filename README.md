@@ -31,7 +31,7 @@ The interface is organized into **four coordinated panels**:
     - flight phase
   - Displays a comparison plot (e.g., grouped/stacked bars or heatmap)
 
-### App Sketch (Milestone 1)
+### App Sketch
 <img width="1536" height="1024" alt="prototype" src="https://github.com/user-attachments/assets/38893b28-ea6e-41fe-84e5-fa4435f7e956" />
 
 ---
