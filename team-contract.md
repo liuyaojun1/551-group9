@@ -1,4 +1,4 @@
-# Team Work Contract (DATA 551 — Group 9)
+# Team Work Contract (Flight–Animal Impacts Dashboard)
 
 - **Work Distribution:** Work will be distributed equally among all team members, and we will rebalance tasks if someone is overloaded or blocked.
 - **Project Duration:** The expected project duration is **Feb 10, 2026 – Mar 20, 2026**, and we will plan milestones within this window.
