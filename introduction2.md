@@ -48,8 +48,9 @@ Future milestones will focus on usability polish, richer interactions, performan
 
 ## Links
 - **GitHub Repository:** https://github.com/liuyaojun1/Flight-Animal-Impacts :contentReference[oaicite:4]{index=4}
-- **Deployed App:** *(add deployment link here if available)*
+
 
 ## Team Notes
 This Milestone 2 submission emphasizes a working prototype that demonstrates the end-to-end exploratory workflow and the linked multi-panel design, aligned with the initial app concept and sketch.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/38893b28-ea6e-41fe-84e5-fa4435f7e956" />
